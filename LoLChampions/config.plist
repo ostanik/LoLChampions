@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>8bf2b066-71d7-4840-8f92-bf56f55797cc</string>
+	<key>iconPath</key>
+	<string>http://ddragon.leagueoflegends.com/cdn/5.24.2/img/champion/</string>
+	<key>splashPath</key>
+	<string>http://ddragon.leagueoflegends.com/cdn/img/champion/splash/</string>
+</dict>
+</plist>

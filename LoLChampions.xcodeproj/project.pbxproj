@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425CE3A31C41987A001EB398 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 425CE3A21C41987A001EB398 /* config.plist */; };
+		425CE3A61C419ABB001EB398 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425CE3A81C419ABB001EB398 /* Localizable.strings */; };
+		425CE3B11C41AE83001EB398 /* Champions+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CE3AE1C41AE83001EB398 /* Champions+CoreDataProperties.m */; };
+		425CE3B21C41AE83001EB398 /* Champions.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CE3B01C41AE83001EB398 /* Champions.m */; };
+		425CE3B71C41AF7B001EB398 /* ChampInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CE3B41C41AF7B001EB398 /* ChampInfo+CoreDataProperties.m */; };
+		425CE3B81C41AF7B001EB398 /* ChampInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CE3B61C41AF7B001EB398 /* ChampInfo.m */; };
+		42B917FD1C401165000AC30B /* OKCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B917FC1C401165000AC30B /* OKCoreDataManager.swift */; };
+		42B918001C402353000AC30B /* OKChampionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B917FF1C402353000AC30B /* OKChampionsViewController.swift */; };
+		42B918031C40292B000AC30B /* OKChampionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B918021C40292B000AC30B /* OKChampionCell.swift */; };
+		42B9180C1C4066E7000AC30B /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B9180A1C4066E7000AC30B /* Kingfisher.framework */; };
+		42B918111C4078F6000AC30B /* MBCircularProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B918101C4078F6000AC30B /* MBCircularProgressBar.framework */; };
+		42B918131C408984000AC30B /* OKChampionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B918121C408984000AC30B /* OKChampionDetailViewController.swift */; };
+		42B918151C4089BF000AC30B /* OKPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B918141C4089BF000AC30B /* OKPhotoCell.swift */; };
+		42B918171C4089DB000AC30B /* OKStatisticsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B918161C4089DB000AC30B /* OKStatisticsCell.swift */; };
+		42B997BC1C413C6200354B9F /* DGElasticPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B997BB1C413C6200354B9F /* DGElasticPullToRefresh.framework */; };
+		42BA2F041C3F28A00016144A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2F031C3F28A00016144A /* AppDelegate.swift */; };
+		42BA2F091C3F28A00016144A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BA2F071C3F28A00016144A /* Main.storyboard */; };
+		42BA2F0C1C3F28A00016144A /* LoLChampions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2F0A1C3F28A00016144A /* LoLChampions.xcdatamodeld */; };
+		42BA2F0E1C3F28A00016144A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BA2F0D1C3F28A00016144A /* Assets.xcassets */; };
+		42BA2F111C3F28A00016144A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BA2F0F1C3F28A00016144A /* LaunchScreen.storyboard */; };
+		42BA2F1C1C3F28A10016144A /* LoLChampionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2F1B1C3F28A10016144A /* LoLChampionsTests.swift */; };
+		42BA2F271C3F28A10016144A /* LoLChampionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2F261C3F28A10016144A /* LoLChampionsUITests.swift */; };
+		42BA2F381C3F2B060016144A /* OKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BA2F371C3F2B060016144A /* OKNetwork.m */; };
+		42BA2F3A1C3F2B230016144A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BA2F391C3F2B230016144A /* AFNetworking.framework */; };
+		D925C4C3C798E9F690E1CE52 /* Pods_LoLChampions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DAFEA120729082CE06BA7 /* Pods_LoLChampions.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42BA2F181C3F28A10016144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BA2EF81C3F28A00016144A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BA2EFF1C3F28A00016144A;
+			remoteInfo = LoLChampions;
+		};
+		42BA2F231C3F28A10016144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BA2EF81C3F28A00016144A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BA2EFF1C3F28A00016144A;
+			remoteInfo = LoLChampions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		425CE39E1C41979F001EB398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		425CE39F1C41979F001EB398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		425CE3A01C4197A6001EB398 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
+		425CE3A11C4197A6001EB398 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		425CE3A21C41987A001EB398 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		425CE3A71C419ABB001EB398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		425CE3A91C419ABD001EB398 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		425CE3AA1C419EBC001EB398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		425CE3AD1C41AE83001EB398 /* Champions+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Champions+CoreDataProperties.h"; path = "Models/Champions+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425CE3AE1C41AE83001EB398 /* Champions+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Champions+CoreDataProperties.m"; path = "Models/Champions+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425CE3AF1C41AE83001EB398 /* Champions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Champions.h; path = Models/Champions.h; sourceTree = "<group>"; };
+		425CE3B01C41AE83001EB398 /* Champions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Champions.m; path = Models/Champions.m; sourceTree = "<group>"; };
+		425CE3B31C41AF7B001EB398 /* ChampInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ChampInfo+CoreDataProperties.h"; path = "Models/ChampInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		425CE3B41C41AF7B001EB398 /* ChampInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ChampInfo+CoreDataProperties.m"; path = "Models/ChampInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		425CE3B51C41AF7B001EB398 /* ChampInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChampInfo.h; path = Models/ChampInfo.h; sourceTree = "<group>"; };
+		425CE3B61C41AF7B001EB398 /* ChampInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChampInfo.m; path = Models/ChampInfo.m; sourceTree = "<group>"; };
+		42B917FC1C401165000AC30B /* OKCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKCoreDataManager.swift; path = Class/CoreData/OKCoreDataManager.swift; sourceTree = "<group>"; };
+		42B917FF1C402353000AC30B /* OKChampionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKChampionsViewController.swift; path = Class/Controllers/OKChampionsViewController.swift; sourceTree = "<group>"; };
+		42B918021C40292B000AC30B /* OKChampionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKChampionCell.swift; path = Class/View/OKChampionCell.swift; sourceTree = "<group>"; };
+		42B918041C402F74000AC30B /* JDSwiftAvatarProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JDSwiftAvatarProgress.framework; path = "Pods/../build/Debug-iphoneos/JDSwiftAvatarProgress.framework"; sourceTree = "<group>"; };
+		42B918061C403635000AC30B /* Haneke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Haneke.framework; path = "Pods/../build/Debug-iphoneos/Haneke.framework"; sourceTree = "<group>"; };
+		42B9180A1C4066E7000AC30B /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Pods/../build/Debug-iphoneos/Kingfisher.framework"; sourceTree = "<group>"; };
+		42B9180B1C4066E7000AC30B /* VAProgressCircle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VAProgressCircle.framework; path = "Pods/../build/Debug-iphoneos/VAProgressCircle.framework"; sourceTree = "<group>"; };
+		42B9180E1C4068BA000AC30B /* CircleSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CircleSlider.framework; path = "Pods/../build/Debug-iphoneos/CircleSlider.framework"; sourceTree = "<group>"; };
+		42B918101C4078F6000AC30B /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBCircularProgressBar.framework; path = "Pods/../build/Debug-iphoneos/MBCircularProgressBar.framework"; sourceTree = "<group>"; };
+		42B918121C408984000AC30B /* OKChampionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKChampionDetailViewController.swift; path = Class/Controllers/OKChampionDetailViewController.swift; sourceTree = "<group>"; };
+		42B918141C4089BF000AC30B /* OKPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKPhotoCell.swift; path = Class/View/OKPhotoCell.swift; sourceTree = "<group>"; };
+		42B918161C4089DB000AC30B /* OKStatisticsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKStatisticsCell.swift; path = Class/View/OKStatisticsCell.swift; sourceTree = "<group>"; };
+		42B997B91C41365C00354B9F /* PullToBounce.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PullToBounce.framework; path = "Pods/../build/Debug-iphoneos/PullToBounce.framework"; sourceTree = "<group>"; };
+		42B997BB1C413C6200354B9F /* DGElasticPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DGElasticPullToRefresh.framework; path = "Pods/../build/Debug-iphoneos/DGElasticPullToRefresh.framework"; sourceTree = "<group>"; };
+		42BA2F001C3F28A00016144A /* LoLChampions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLChampions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA2F031C3F28A00016144A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42BA2F081C3F28A00016144A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BA2F0B1C3F28A00016144A /* LoLChampions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoLChampions.xcdatamodel; sourceTree = "<group>"; };
+		42BA2F0D1C3F28A00016144A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BA2F101C3F28A00016144A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BA2F121C3F28A00016144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BA2F171C3F28A10016144A /* LoLChampionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLChampionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA2F1B1C3F28A10016144A /* LoLChampionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLChampionsTests.swift; sourceTree = "<group>"; };
+		42BA2F1D1C3F28A10016144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BA2F221C3F28A10016144A /* LoLChampionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLChampionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BA2F261C3F28A10016144A /* LoLChampionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLChampionsUITests.swift; sourceTree = "<group>"; };
+		42BA2F281C3F28A10016144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BA2F351C3F2B060016144A /* LoLChampions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoLChampions-Bridging-Header.h"; sourceTree = "<group>"; };
+		42BA2F361C3F2B060016144A /* OKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OKNetwork.h; path = Class/Network/OKNetwork.h; sourceTree = "<group>"; };
+		42BA2F371C3F2B060016144A /* OKNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OKNetwork.m; path = Class/Network/OKNetwork.m; sourceTree = "<group>"; };
+		42BA2F391C3F2B230016144A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		42BA2F3F1C3F2DC60016144A /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "Pods/../build/Debug-iphoneos/Mantle.framework"; sourceTree = "<group>"; };
+		602C1C1E02A26190B36810E0 /* Pods-LoLChampions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoLChampions/Pods-LoLChampions.debug.xcconfig"; sourceTree = "<group>"; };
+		B4807E46258FCBC30A677BDA /* Pods-LoLChampions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoLChampions.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoLChampions/Pods-LoLChampions.release.xcconfig"; sourceTree = "<group>"; };
+		D37DAFEA120729082CE06BA7 /* Pods_LoLChampions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoLChampions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BA2EFD1C3F28A00016144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B997BC1C413C6200354B9F /* DGElasticPullToRefresh.framework in Frameworks */,
+				42B918111C4078F6000AC30B /* MBCircularProgressBar.framework in Frameworks */,
+				42B9180C1C4066E7000AC30B /* Kingfisher.framework in Frameworks */,
+				42BA2F3A1C3F2B230016144A /* AFNetworking.framework in Frameworks */,
+				D925C4C3C798E9F690E1CE52 /* Pods_LoLChampions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F141C3F28A10016144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F1F1C3F28A10016144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425CE3AB1C41A66C001EB398 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F351C3F2B060016144A /* LoLChampions-Bridging-Header.h */,
+				42BA2F121C3F28A00016144A /* Info.plist */,
+				425CE3A21C41987A001EB398 /* config.plist */,
+				425CE3A81C419ABB001EB398 /* Localizable.strings */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		425CE3AC1C41AE56001EB398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				425CE3AD1C41AE83001EB398 /* Champions+CoreDataProperties.h */,
+				425CE3AE1C41AE83001EB398 /* Champions+CoreDataProperties.m */,
+				425CE3AF1C41AE83001EB398 /* Champions.h */,
+				425CE3B01C41AE83001EB398 /* Champions.m */,
+				425CE3B31C41AF7B001EB398 /* ChampInfo+CoreDataProperties.h */,
+				425CE3B41C41AF7B001EB398 /* ChampInfo+CoreDataProperties.m */,
+				425CE3B51C41AF7B001EB398 /* ChampInfo.h */,
+				425CE3B61C41AF7B001EB398 /* ChampInfo.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		42B917FB1C40112D000AC30B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F0A1C3F28A00016144A /* LoLChampions.xcdatamodeld */,
+				42B917FC1C401165000AC30B /* OKCoreDataManager.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		42B917FE1C40225B000AC30B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42B917FF1C402353000AC30B /* OKChampionsViewController.swift */,
+				42B918121C408984000AC30B /* OKChampionDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		42B918011C402908000AC30B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42B918021C40292B000AC30B /* OKChampionCell.swift */,
+				42B918141C4089BF000AC30B /* OKPhotoCell.swift */,
+				42B918161C4089DB000AC30B /* OKStatisticsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		42BA2EF71C3F28A00016144A = {
+			isa = PBXGroup;
+			children = (
+				42BA2F021C3F28A00016144A /* LoLChampions */,
+				42BA2F1A1C3F28A10016144A /* LoLChampionsTests */,
+				42BA2F251C3F28A10016144A /* LoLChampionsUITests */,
+				42BA2F011C3F28A00016144A /* Products */,
+				572967949D64B1416002274F /* Pods */,
+				7F1F43365C7FBFEAE41D5383 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42BA2F011C3F28A00016144A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F001C3F28A00016144A /* LoLChampions.app */,
+				42BA2F171C3F28A10016144A /* LoLChampionsTests.xctest */,
+				42BA2F221C3F28A10016144A /* LoLChampionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BA2F021C3F28A00016144A /* LoLChampions */ = {
+			isa = PBXGroup;
+			children = (
+				425CE3AC1C41AE56001EB398 /* Models */,
+				425CE3AB1C41A66C001EB398 /* Configs */,
+				42B918011C402908000AC30B /* View */,
+				42B917FE1C40225B000AC30B /* Controller */,
+				42B917FB1C40112D000AC30B /* CoreData */,
+				42BA2F341C3F2A780016144A /* Network */,
+				42BA2F031C3F28A00016144A /* AppDelegate.swift */,
+				42BA2F071C3F28A00016144A /* Main.storyboard */,
+				42BA2F0D1C3F28A00016144A /* Assets.xcassets */,
+				42BA2F0F1C3F28A00016144A /* LaunchScreen.storyboard */,
+			);
+			path = LoLChampions;
+			sourceTree = "<group>";
+		};
+		42BA2F1A1C3F28A10016144A /* LoLChampionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F1B1C3F28A10016144A /* LoLChampionsTests.swift */,
+				42BA2F1D1C3F28A10016144A /* Info.plist */,
+			);
+			path = LoLChampionsTests;
+			sourceTree = "<group>";
+		};
+		42BA2F251C3F28A10016144A /* LoLChampionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F261C3F28A10016144A /* LoLChampionsUITests.swift */,
+				42BA2F281C3F28A10016144A /* Info.plist */,
+			);
+			path = LoLChampionsUITests;
+			sourceTree = "<group>";
+		};
+		42BA2F341C3F2A780016144A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				42BA2F361C3F2B060016144A /* OKNetwork.h */,
+				42BA2F371C3F2B060016144A /* OKNetwork.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		572967949D64B1416002274F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				602C1C1E02A26190B36810E0 /* Pods-LoLChampions.debug.xcconfig */,
+				B4807E46258FCBC30A677BDA /* Pods-LoLChampions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F1F43365C7FBFEAE41D5383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B997BB1C413C6200354B9F /* DGElasticPullToRefresh.framework */,
+				42B997B91C41365C00354B9F /* PullToBounce.framework */,
+				42B918101C4078F6000AC30B /* MBCircularProgressBar.framework */,
+				42B9180E1C4068BA000AC30B /* CircleSlider.framework */,
+				42B9180A1C4066E7000AC30B /* Kingfisher.framework */,
+				42B9180B1C4066E7000AC30B /* VAProgressCircle.framework */,
+				42B918061C403635000AC30B /* Haneke.framework */,
+				42B918041C402F74000AC30B /* JDSwiftAvatarProgress.framework */,
+				42BA2F3F1C3F2DC60016144A /* Mantle.framework */,
+				42BA2F391C3F2B230016144A /* AFNetworking.framework */,
+				D37DAFEA120729082CE06BA7 /* Pods_LoLChampions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BA2EFF1C3F28A00016144A /* LoLChampions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BA2F2B1C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampions" */;
+			buildPhases = (
+				8475A75465C8FB16F66008DF /* Check Pods Manifest.lock */,
+				42BA2EFC1C3F28A00016144A /* Sources */,
+				42BA2EFD1C3F28A00016144A /* Frameworks */,
+				42BA2EFE1C3F28A00016144A /* Resources */,
+				3BA7BB063D9E6C668385D217 /* Embed Pods Frameworks */,
+				2F8E52323DAEBA69D10897BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoLChampions;
+			productName = LoLChampions;
+			productReference = 42BA2F001C3F28A00016144A /* LoLChampions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BA2F161C3F28A10016144A /* LoLChampionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BA2F2E1C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampionsTests" */;
+			buildPhases = (
+				42BA2F131C3F28A10016144A /* Sources */,
+				42BA2F141C3F28A10016144A /* Frameworks */,
+				42BA2F151C3F28A10016144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BA2F191C3F28A10016144A /* PBXTargetDependency */,
+			);
+			name = LoLChampionsTests;
+			productName = LoLChampionsTests;
+			productReference = 42BA2F171C3F28A10016144A /* LoLChampionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42BA2F211C3F28A10016144A /* LoLChampionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BA2F311C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampionsUITests" */;
+			buildPhases = (
+				42BA2F1E1C3F28A10016144A /* Sources */,
+				42BA2F1F1C3F28A10016144A /* Frameworks */,
+				42BA2F201C3F28A10016144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BA2F241C3F28A10016144A /* PBXTargetDependency */,
+			);
+			name = LoLChampionsUITests;
+			productName = LoLChampionsUITests;
+			productReference = 42BA2F221C3F28A10016144A /* LoLChampionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BA2EF81C3F28A00016144A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ostanik;
+				TargetAttributes = {
+					42BA2EFF1C3F28A00016144A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					42BA2F161C3F28A10016144A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 42BA2EFF1C3F28A00016144A;
+					};
+					42BA2F211C3F28A10016144A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 42BA2EFF1C3F28A00016144A;
+					};
+				};
+			};
+			buildConfigurationList = 42BA2EFB1C3F28A00016144A /* Build configuration list for PBXProject "LoLChampions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				pt,
+			);
+			mainGroup = 42BA2EF71C3F28A00016144A;
+			productRefGroup = 42BA2F011C3F28A00016144A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BA2EFF1C3F28A00016144A /* LoLChampions */,
+				42BA2F161C3F28A10016144A /* LoLChampionsTests */,
+				42BA2F211C3F28A10016144A /* LoLChampionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BA2EFE1C3F28A00016144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA2F111C3F28A00016144A /* LaunchScreen.storyboard in Resources */,
+				42BA2F0E1C3F28A00016144A /* Assets.xcassets in Resources */,
+				425CE3A61C419ABB001EB398 /* Localizable.strings in Resources */,
+				425CE3A31C41987A001EB398 /* config.plist in Resources */,
+				42BA2F091C3F28A00016144A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F151C3F28A10016144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F201C3F28A10016144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8E52323DAEBA69D10897BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoLChampions/Pods-LoLChampions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA7BB063D9E6C668385D217 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoLChampions/Pods-LoLChampions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8475A75465C8FB16F66008DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BA2EFC1C3F28A00016144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425CE3B21C41AE83001EB398 /* Champions.m in Sources */,
+				425CE3B71C41AF7B001EB398 /* ChampInfo+CoreDataProperties.m in Sources */,
+				42B917FD1C401165000AC30B /* OKCoreDataManager.swift in Sources */,
+				42BA2F0C1C3F28A00016144A /* LoLChampions.xcdatamodeld in Sources */,
+				42B918131C408984000AC30B /* OKChampionDetailViewController.swift in Sources */,
+				42B918031C40292B000AC30B /* OKChampionCell.swift in Sources */,
+				42BA2F381C3F2B060016144A /* OKNetwork.m in Sources */,
+				42BA2F041C3F28A00016144A /* AppDelegate.swift in Sources */,
+				425CE3B11C41AE83001EB398 /* Champions+CoreDataProperties.m in Sources */,
+				42B918171C4089DB000AC30B /* OKStatisticsCell.swift in Sources */,
+				42B918151C4089BF000AC30B /* OKPhotoCell.swift in Sources */,
+				425CE3B81C41AF7B001EB398 /* ChampInfo.m in Sources */,
+				42B918001C402353000AC30B /* OKChampionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F131C3F28A10016144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA2F1C1C3F28A10016144A /* LoLChampionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BA2F1E1C3F28A10016144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA2F271C3F28A10016144A /* LoLChampionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42BA2F191C3F28A10016144A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BA2EFF1C3F28A00016144A /* LoLChampions */;
+			targetProxy = 42BA2F181C3F28A10016144A /* PBXContainerItemProxy */;
+		};
+		42BA2F241C3F28A10016144A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BA2EFF1C3F28A00016144A /* LoLChampions */;
+			targetProxy = 42BA2F231C3F28A10016144A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425CE3A81C419ABB001EB398 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425CE3A71C419ABB001EB398 /* en */,
+				425CE3A91C419ABD001EB398 /* pt */,
+				425CE3AA1C419EBC001EB398 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		42BA2F071C3F28A00016144A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BA2F081C3F28A00016144A /* Base */,
+				425CE39E1C41979F001EB398 /* en */,
+				425CE3A01C4197A6001EB398 /* pt */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BA2F0F1C3F28A00016144A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BA2F101C3F28A00016144A /* Base */,
+				425CE39F1C41979F001EB398 /* en */,
+				425CE3A11C4197A6001EB398 /* pt */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BA2F291C3F28A10016144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BA2F2A1C3F28A10016144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BA2F2C1C3F28A10016144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C1C1E02A26190B36810E0 /* Pods-LoLChampions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = LoLChampions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoLChampions/LoLChampions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		42BA2F2D1C3F28A10016144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4807E46258FCBC30A677BDA /* Pods-LoLChampions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = LoLChampions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoLChampions/LoLChampions-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		42BA2F2F1C3F28A10016144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoLChampionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLChampions.app/LoLChampions";
+			};
+			name = Debug;
+		};
+		42BA2F301C3F28A10016144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoLChampionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLChampions.app/LoLChampions";
+			};
+			name = Release;
+		};
+		42BA2F321C3F28A10016144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoLChampionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoLChampions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42BA2F331C3F28A10016144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoLChampionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ostanik.LoLChampionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoLChampions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BA2EFB1C3F28A00016144A /* Build configuration list for PBXProject "LoLChampions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA2F291C3F28A10016144A /* Debug */,
+				42BA2F2A1C3F28A10016144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BA2F2B1C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA2F2C1C3F28A10016144A /* Debug */,
+				42BA2F2D1C3F28A10016144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BA2F2E1C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA2F2F1C3F28A10016144A /* Debug */,
+				42BA2F301C3F28A10016144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BA2F311C3F28A10016144A /* Build configuration list for PBXNativeTarget "LoLChampionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BA2F321C3F28A10016144A /* Debug */,
+				42BA2F331C3F28A10016144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42BA2F0A1C3F28A00016144A /* LoLChampions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42BA2F0B1C3F28A00016144A /* LoLChampions.xcdatamodel */,
+			);
+			currentVersion = 42BA2F0B1C3F28A00016144A /* LoLChampions.xcdatamodel */;
+			path = LoLChampions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42BA2EF81C3F28A00016144A /* Project object */;
+}

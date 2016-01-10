@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="ChampInfo" representedClassName="ChampInfo" syncable="YES">
+        <attribute name="attack" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="defense" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="difficulty" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="magic" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="splashPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="championID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Champions" syncable="YES"/>
+    </entity>
+    <entity name="Champions" representedClassName="Champions" syncable="YES">
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChampInfo" positionX="-54" positionY="-9" width="128" height="150"/>
+        <element name="Champions" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>

@@ -1,0 +1,27 @@
+
+/* Class = "UITableViewController"; title = "Galeria"; ObjectID = "4Jl-qu-AH2"; */
+"4Jl-qu-AH2.title" = "Galeria";
+
+/* Class = "UILabel"; text = "Carregando..."; ObjectID = "Cek-CA-RYy"; */
+"Cek-CA-RYy.text" = "Carregando...";
+
+/* Class = "UILabel"; text = "Loren ipsun "; ObjectID = "DXR-wx-QUB"; */
+"DXR-wx-QUB.text" = "Loren ipsun ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Psd-Mp-X9Z"; */
+"Psd-Mp-X9Z.text" = "Label";
+
+/* Class = "UILabel"; text = "Ataque"; ObjectID = "iYD-si-B4A"; */
+"iYD-si-B4A.text" = "Ataque";
+
+/* Class = "UILabel"; text = "Defesa"; ObjectID = "oUI-93-hbP"; */
+"oUI-93-hbP.text" = "Defesa";
+
+/* Class = "UINavigationItem"; title = "Lista de Campeões"; ObjectID = "pfb-2I-sNJ"; */
+"pfb-2I-sNJ.title" = "Lista de Campeões";
+
+/* Class = "UILabel"; text = "Habilidade"; ObjectID = "tC2-Rh-8q1"; */
+"tC2-Rh-8q1.text" = "Habilidade";
+
+/* Class = "UILabel"; text = "Dificuldade"; ObjectID = "xmj-2x-XMU"; */
+"xmj-2x-XMU.text" = "Dificuldade";

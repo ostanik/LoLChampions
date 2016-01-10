@@ -1,0 +1,8 @@
+/* 
+ Localized.strings
+ LoLChampions
+ 
+ Created by Alan Ostanik on 1/9/16.
+ Copyright © 2016 Ostanik. All rights reserved.
+ */
+"SERVER"="https://global.api.pvp.net/api/lol/static-data/br/v1.2/champion?api_key=";
