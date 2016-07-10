@@ -34,9 +34,9 @@ class LoLChampionsUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
 
         let app = XCUIApplication()
-        let arrItens = ["Aatrox", "Ahri", "Akali", "Alistar"]
+        let arrItens = ["Ahri", "Alistar"]
 
-//        snapshot("")
+//        snapshot("Lista")
         //Go for the four first itens.
         for item in arrItens {
             selectItemAndGoBack(item, app: app)
