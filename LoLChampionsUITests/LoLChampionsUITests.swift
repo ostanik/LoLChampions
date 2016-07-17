@@ -57,7 +57,7 @@ class LoLChampionsUITests: XCTestCase {
 //        snapshot("i\(itemTitle)")
         scrollToLastCell(app)
 //        snapshot("i\(itemTitle)1")
-        app.navigationBars[itemTitle].buttons["Champions List"].tap()
+        app.navigationBars[itemTitle].buttons["Lista de Campeões"].tap()
     }
     
     /**
