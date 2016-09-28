@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420DFCAE1D3D97D10041B8E1 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420DFCAD1D3D97D10041B8E1 /* SnapshotHelper.swift */; };
 		425CE3A31C41987A001EB398 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 425CE3A21C41987A001EB398 /* config.plist */; };
 		425CE3A61C419ABB001EB398 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425CE3A81C419ABB001EB398 /* Localizable.strings */; };
 		425CE3B11C41AE83001EB398 /* Champions+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 425CE3AE1C41AE83001EB398 /* Champions+CoreDataProperties.m */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420DFCAD1D3D97D10041B8E1 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		425CE39E1C41979F001EB398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		425CE39F1C41979F001EB398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		425CE3A01C4197A6001EB398 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 		42BA2F251C3F28A10016144A /* LoLChampionsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				420DFCAD1D3D97D10041B8E1 /* SnapshotHelper.swift */,
 				42BA2F261C3F28A10016144A /* LoLChampionsUITests.swift */,
 				42BA2F281C3F28A10016144A /* Info.plist */,
 			);
@@ -496,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42BA2F271C3F28A10016144A /* LoLChampionsUITests.swift in Sources */,
+				420DFCAE1D3D97D10041B8E1 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
